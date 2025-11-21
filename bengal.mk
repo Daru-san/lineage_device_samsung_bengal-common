@@ -428,4 +428,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/bengal-common/bengal-vendor.mk)
+$(call inherit-product, vendor/samsung/bengal/bengal-vendor.mk)
