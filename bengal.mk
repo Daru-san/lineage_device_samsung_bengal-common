@@ -64,11 +64,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
-# Bootctrl
+# Boot control (A/B Updates)
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-impl-qti \
-    android.hardware.boot@1.1-impl-qti.recovery \
-    android.hardware.boot@1.1-service
+    com.android.hardware.boot \
+    android.hardware.boot-service.default_recovery
 
 # Camera
 PRODUCT_PACKAGES += \
