@@ -111,6 +111,15 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2024-06-01
 
+
+# SELinux
+TARGET_SEPOLICY_DIR := msmsteppe
+include device/qcom/sepolicy_vndr/SEPolicy.mk
+
+# SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
+# SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
+# BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
