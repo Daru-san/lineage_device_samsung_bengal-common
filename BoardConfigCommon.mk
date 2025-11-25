@@ -56,6 +56,9 @@ BOARD_SUPER_PARTITION_GROUPS := samsung_dynamic_partitions
 BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST :=
 BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
+# Partitions
+include vendor/lineage/config/BoardConfigReservedSize.mk
+
 # Platform
 TARGET_BOARD_PLATFORM := bengal
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
