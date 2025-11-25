@@ -58,6 +58,7 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
 # Platform
 TARGET_BOARD_PLATFORM := bengal
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
 
 # Properties
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
