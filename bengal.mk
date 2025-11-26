@@ -270,7 +270,10 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power.samsung-service \
-    android.hardware.power@1.2.vendor
+    android.hardware.power@1.2.vendor \
+    vendor.qti.hardware.perf@2.0.vendor \
+    vendor.qti.hardware.perf@2.1.vendor \
+    vendor.qti.hardware.perf@2.2.vendor
 
 # Public libraries
 PRODUCT_COPY_FILES += \
